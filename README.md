@@ -1,7 +1,8 @@
 # MessageHub
 An implementation of the Event Aggregator Pattern.
 
-#### NuGet package: [![NuGet](https://img.shields.io/badge/MessageHub-Latest-brightgreen.svg)](https://www.nuget.org/packages/Bool.MessageHub/)
+#### NuGet package: 
+[![NuGet](https://img.shields.io/badge/MessageHub-Latest-brightgreen.svg)](https://www.nuget.org/packages/Bool.MessageHub/)
 
 ### Usage example:
 
