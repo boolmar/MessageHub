@@ -62,6 +62,6 @@ A subscriber registering against `Ordrer` will also receive events of type `NewO
 #### Reference:
 #1. http://www.nimaara.com/2016/02/14/cleaner-pub-sub-using-the-event-aggregator-pattern/
 
-#2. https://github.com/NimaAra/Easy.MessageHub/blob/master/README.md
+#2. https://github.com/NimaAra/Easy.MessageHub/
 
-#3. https://www.codeproject.com/Articles/866547/Publisher-Subscriber-pattern-with-Event-Delegate-a
+#3. https://www.codeproject.com/Articles/866547/Publisher-Subscriber-pattern-with-Event-Delegate-a/
