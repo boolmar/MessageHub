@@ -1,6 +1,7 @@
 # MessageHub
 An implementation of the Event Aggregator Pattern.
 
+#### NuGet package: [Bool.MessageHub](https://www.nuget.org/packages/Bool.MessageHub/)
 
 ### Usage example:
 
