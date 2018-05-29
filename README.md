@@ -49,16 +49,6 @@ The hub allows the registration of a single handler which will receive every mes
 hub.RegisterGlobalHandler((type, eventObject) => Console.WriteLine($"Type: {type} - Event: {eventObject}"));
 ```
 
-#### Event throttling:
-The hub allows each subscriber to throttle the rate at which it receives the events:
-
-```csharp
-hub.Subscribe<string>(msg => 
-	Console.WriteLine($"Message is: {msg}"), 
-	TimeSpan.FromSeconds(1));
-```
-In the above example, if the subscriber receives more than one message within _1_ second of another, it drops them.
-
 #### Inheritance support:
 The hub supports inheritance by allowing to subscribe to a base class or an interface and receiving all the publications of types that inherit or implement the subscribed type. For example, given:
 
