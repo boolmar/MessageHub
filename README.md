@@ -70,5 +70,7 @@ public class BigOrder : Order{}
 A subscriber registering against `Ordrer` will also receive events of type `NewOrder` and `BigOrder`.
 #### Reference:
 #1. http://www.nimaara.com/2016/02/14/cleaner-pub-sub-using-the-event-aggregator-pattern/
+
 #2. https://github.com/NimaAra/Easy.MessageHub/blob/master/README.md
+
 #3. https://www.codeproject.com/Articles/866547/Publisher-Subscriber-pattern-with-Event-Delegate-a?fid=1877066&df=90&mpp=25&sort=Position&spc=Relaxed&prof=True&view=Normal&fr=26#xx0xx
